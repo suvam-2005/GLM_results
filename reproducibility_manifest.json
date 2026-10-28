@@ -1,0 +1,187 @@
+{
+  "config": "configs/glm_independent_benchmark.yaml",
+  "model": "z-ai/glm-5.3-flash",
+  "task_set_sha256": "31ccc0b035de3fde4483f1ff6609e5de3a59293d7f908e47ba8122c4f323748c",
+  "conditions": {
+    "L0": {
+      "condition": "L0",
+      "run_id": [
+        "independent_benchmark_v1_glm_5_3_flash"
+      ],
+      "experiment_ids": [
+        "e1ac070e-4389-43ae-9c93-963f34ceaf52"
+      ],
+      "model": [
+        "z-ai/glm-5.3-flash"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "None"
+      ],
+      "git_commit": [
+        "6e7201a29967491bb8a94c938422e403610b494b"
+      ],
+      "configuration_hash": [
+        "9c9831ca9cbb8f77ed8cb6c67ac0f30842a8a0b35b8e8c723daf906789569d11"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793173167.416047,
+      "timestamp_max": 1793173558.766617
+    },
+    "L1": {
+      "condition": "L1",
+      "run_id": [
+        "independent_benchmark_v1_glm_5_3_flash"
+      ],
+      "experiment_ids": [
+        "c7da8ad7-bca7-4bee-adf1-a789cc732e4d"
+      ],
+      "model": [
+        "z-ai/glm-5.3-flash"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L1-v1"
+      ],
+      "git_commit": [
+        "6e7201a29967491bb8a94c938422e403610b494b"
+      ],
+      "configuration_hash": [
+        "9c9831ca9cbb8f77ed8cb6c67ac0f30842a8a0b35b8e8c723daf906789569d11"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793173572.7478924,
+      "timestamp_max": 1793173972.3133662
+    },
+    "L2": {
+      "condition": "L2",
+      "run_id": [
+        "independent_benchmark_v1_glm_5_3_flash"
+      ],
+      "experiment_ids": [
+        "55c8929c-f148-4fcf-8c30-c23e68f8da47"
+      ],
+      "model": [
+        "z-ai/glm-5.3-flash"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L2-v1"
+      ],
+      "git_commit": [
+        "6e7201a29967491bb8a94c938422e403610b494b"
+      ],
+      "configuration_hash": [
+        "9c9831ca9cbb8f77ed8cb6c67ac0f30842a8a0b35b8e8c723daf906789569d11"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793173987.2423997,
+      "timestamp_max": 1793174424.8347986
+    },
+    "L3": {
+      "condition": "L3",
+      "run_id": [
+        "independent_benchmark_v1_glm_5_3_flash"
+      ],
+      "experiment_ids": [
+        "22377d59-aa60-4669-8260-1ba16e3348ce"
+      ],
+      "model": [
+        "z-ai/glm-5.3-flash"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L3-v1"
+      ],
+      "git_commit": [
+        "6e7201a29967491bb8a94c938422e403610b494b"
+      ],
+      "configuration_hash": [
+        "9c9831ca9cbb8f77ed8cb6c67ac0f30842a8a0b35b8e8c723daf906789569d11"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793174443.6738195,
+      "timestamp_max": 1793174879.37482
+    },
+    "L4": {
+      "condition": "L4",
+      "run_id": [
+        "independent_benchmark_v1_glm_5_3_flash"
+      ],
+      "experiment_ids": [
+        "aa6b843a-2083-4668-89ab-8f8f52370ec2"
+      ],
+      "model": [
+        "z-ai/glm-5.3-flash"
+      ],
+      "provider": [
+        "openrouter"
+      ],
+      "temperature": [
+        0
+      ],
+      "guardrail_version": [
+        "L4-v2"
+      ],
+      "git_commit": [
+        "6e7201a29967491bb8a94c938422e403610b494b"
+      ],
+      "configuration_hash": [
+        "9c9831ca9cbb8f77ed8cb6c67ac0f30842a8a0b35b8e8c723daf906789569d11"
+      ],
+      "n_tasks": 32,
+      "n_unique_task_ids": 32,
+      "timestamp_min": 1793174891.5515003,
+      "timestamp_max": 1793175124.2399049
+    }
+  },
+  "project_ledger_cumulative_usd": 0.43698038650000137,
+  "project_ledger_api_calls": 3027,
+  "glm_benchmark_spend_usd": 0.10832485000000003,
+  "benchmark_hard_cap_usd": 8.0,
+  "remaining_glm_benchmark_budget_usd": 7.89167515,
+  "raw_data_paths": [
+    "data/glm_benchmark/raw/L0.jsonl",
+    "data/glm_benchmark/raw/L1.jsonl",
+    "data/glm_benchmark/raw/L2.jsonl",
+    "data/glm_benchmark/raw/L3.jsonl",
+    "data/glm_benchmark/raw/L4.jsonl"
+  ],
+  "trajectory_paths": [
+    "data/glm_benchmark/raw/trajectories/L0/",
+    "data/glm_benchmark/raw/trajectories/L1/",
+    "data/glm_benchmark/raw/trajectories/L2/",
+    "data/glm_benchmark/raw/trajectories/L3/",
+    "data/glm_benchmark/raw/trajectories/L4/"
+  ],
+  "processed_data_dir": "data/glm_benchmark/processed/",
+  "statistics_dir": "data/glm_benchmark/statistics/",
+  "figures_dirs": [
+    "figures/",
+    "outcome_figures/"
+  ]
+}

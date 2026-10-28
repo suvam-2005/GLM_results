@@ -1,0 +1,12 @@
+{
+  "1": "Figure 1. The reference paper's reported age trajectories for its two open-weight baselines, Qwen3.5-27B (medium confidence) and Gemma-4-31B (low confidence). The paper did not evaluate any GLM model, so there is no reference result for GLM 5.3 Flash. Paper's own scale; context only (n=4 ages).",
+  "2": "Figure 2. L0 (no guardrail) accuracy by age for GLM 5.3 Flash, Qwen3.5-27B, Gemma 4 26B A4B and DeepSeek-V3.2, all OUR results on this same 32-task benchmark with the same scoring (n=8 tasks per age per model). Replaces the Qwen/Gemma sets' reference-vs-L0 figure, since no GLM reference exists. GLM ran with minimal reasoning (it cannot be disabled); the other three ran with reasoning disabled.",
+  "3": "Figure 3. L0 vs L1 vs L2 vs L3 vs L4 cognitive alignment (PRIMARY). Y-axis: independent alignment score [0,1] (independent_alignment.py formula), mean across 4 ages. Error bars = SEM across n=4 ages.",
+  "4": "Figure 4. L0-L4 task capability. Y-axis: fraction of the 32 tasks answered correctly [0,1]. Error bars = SEM of the binary per-task scores, n=32 tasks per condition.",
+  "5": "Figure 5. Alignment vs capability retention, one point per condition (L0-L4). X-axis: accuracy divided by L0 accuracy. Y-axis: alignment score [0,1]. Coinciding points overlap exactly.",
+  "6": "Figure 6. Per-age L0-L4 comparison. Y-axis: accuracy, n=8 tasks per age per condition. One line per condition; overlapping lines indicate identical values.",
+  "7": "Figure 7. Per-category performance. Y-axis: accuracy, n=4 tasks per category per condition. One bar series per condition (L0-L4).",
+  "8": "Figure 8. Guardrail intervention rate, L0-L4. Y-axis: interventions / total steps [0,1], over all 32 tasks' full step counts per condition.",
+  "9": "Figure 9. Errors / recoveries / trajectory length, L0-L4. Counts of malformed-output errors and recoveries, and mean steps per task, n=32 tasks per condition.",
+  "10": "Figure 10. Inference cost and token consumption, L0-L4 (three panels: total tokens, cost, and the reasoning tokens included in the output, which GLM 5.3 Flash cannot turn off). Direct sums of recorded usage over 32 tasks, not sampled statistics \u2014 no error bars."
+}

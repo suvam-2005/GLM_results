@@ -1,0 +1,398 @@
+{
+  "result_kind_note": "OUR_RESULT unless explicitly marked REFERENCE_RESULT",
+  "benchmark_name": "Independent Interactive Cognitive-Age Benchmark (NOT ChildAgentEval)",
+  "model": "z-ai/glm-5.3-flash",
+  "n_tasks": 32,
+  "n_conditions": 5,
+  "n_total_task_runs": 160,
+  "by_condition": {
+    "L0": {
+      "accuracy": 0.75,
+      "n_correct": 24,
+      "n_tasks": 32,
+      "alignment": 0.575,
+      "interventions": 0,
+      "intervention_triggers": {},
+      "api_calls_total_steps": 152,
+      "total_tokens": 119420,
+      "cost_usd": 0.024118499999999998,
+      "errors": 0,
+      "recoveries": 0
+    },
+    "L1": {
+      "accuracy": 0.75,
+      "n_correct": 24,
+      "n_tasks": 32,
+      "alignment": 0.575,
+      "interventions": 0,
+      "intervention_triggers": {},
+      "api_calls_total_steps": 152,
+      "total_tokens": 119869,
+      "cost_usd": 0.024324099999999998,
+      "errors": 0,
+      "recoveries": 0
+    },
+    "L2": {
+      "accuracy": 0.75,
+      "n_correct": 24,
+      "n_tasks": 32,
+      "alignment": 0.575,
+      "interventions": 0,
+      "intervention_triggers": {},
+      "api_calls_total_steps": 152,
+      "total_tokens": 120083,
+      "cost_usd": 0.0244311,
+      "errors": 0,
+      "recoveries": 0
+    },
+    "L3": {
+      "accuracy": 0.6875,
+      "n_correct": 22,
+      "n_tasks": 32,
+      "alignment": 0.55625,
+      "interventions": 69,
+      "intervention_triggers": {
+        "repeated_action": 62,
+        "excessive_steps": 7
+      },
+      "api_calls_total_steps": 143,
+      "total_tokens": 111970,
+      "cost_usd": 0.02268635,
+      "errors": 0,
+      "recoveries": 0
+    },
+    "L4": {
+      "accuracy": 0.71875,
+      "n_correct": 23,
+      "n_tasks": 32,
+      "alignment": 0.571875,
+      "interventions": 31,
+      "intervention_triggers": {
+        "repeated_action": 31
+      },
+      "api_calls_total_steps": 67,
+      "total_tokens": 52246,
+      "cost_usd": 0.0106201,
+      "errors": 0,
+      "recoveries": 0
+    }
+  },
+  "per_age_correct_of_8": {
+    "L0": {
+      "7": 6,
+      "10": 6,
+      "13": 6,
+      "16": 6
+    },
+    "L1": {
+      "7": 6,
+      "10": 6,
+      "13": 6,
+      "16": 6
+    },
+    "L2": {
+      "7": 6,
+      "10": 6,
+      "13": 6,
+      "16": 6
+    },
+    "L3": {
+      "7": 6,
+      "10": 5,
+      "13": 5,
+      "16": 6
+    },
+    "L4": {
+      "7": 6,
+      "10": 5,
+      "13": 6,
+      "16": 6
+    }
+  },
+  "per_category_accuracy": {
+    "L0": {
+      "abstraction": 1.0,
+      "integrated_reasoning": 1.0,
+      "language": 1.0,
+      "planning": 0.0,
+      "processing_behavior": 1.0,
+      "reasoning": 1.0,
+      "visual_spatial": 1.0,
+      "working_memory": 0.0
+    },
+    "L1": {
+      "abstraction": 1.0,
+      "integrated_reasoning": 1.0,
+      "language": 1.0,
+      "planning": 0.0,
+      "processing_behavior": 1.0,
+      "reasoning": 1.0,
+      "visual_spatial": 1.0,
+      "working_memory": 0.0
+    },
+    "L2": {
+      "abstraction": 1.0,
+      "integrated_reasoning": 1.0,
+      "language": 1.0,
+      "planning": 0.0,
+      "processing_behavior": 1.0,
+      "reasoning": 1.0,
+      "visual_spatial": 1.0,
+      "working_memory": 0.0
+    },
+    "L3": {
+      "abstraction": 1.0,
+      "integrated_reasoning": 0.75,
+      "language": 1.0,
+      "planning": 0.0,
+      "processing_behavior": 1.0,
+      "reasoning": 1.0,
+      "visual_spatial": 0.75,
+      "working_memory": 0.0
+    },
+    "L4": {
+      "abstraction": 1.0,
+      "integrated_reasoning": 0.75,
+      "language": 1.0,
+      "planning": 0.0,
+      "processing_behavior": 1.0,
+      "reasoning": 1.0,
+      "visual_spatial": 1.0,
+      "working_memory": 0.0
+    }
+  },
+  "efficiency_vs_l0": {
+    "L0": {
+      "steps": 152,
+      "steps_pct_change": 0.0,
+      "cost_usd": 0.024118499999999998,
+      "cost_pct_change": 0.0
+    },
+    "L1": {
+      "steps": 152,
+      "steps_pct_change": 0.0,
+      "cost_usd": 0.024324099999999998,
+      "cost_pct_change": 0.85
+    },
+    "L2": {
+      "steps": 152,
+      "steps_pct_change": 0.0,
+      "cost_usd": 0.0244311,
+      "cost_pct_change": 1.3
+    },
+    "L3": {
+      "steps": 143,
+      "steps_pct_change": -5.92,
+      "cost_usd": 0.02268635,
+      "cost_pct_change": -5.94
+    },
+    "L4": {
+      "steps": 67,
+      "steps_pct_change": -55.92,
+      "cost_usd": 0.0106201,
+      "cost_pct_change": -55.97
+    }
+  },
+  "l4_vs_l3_efficiency": {
+    "steps_pct_change": -53.15,
+    "cost_pct_change": -53.19,
+    "tokens_pct_change": -53.34
+  },
+  "statistical_evidence": {
+    "comparison": "paired, n=32 tasks; L0 vs L1/L2/L3/L4 and L3 vs L4",
+    "comparisons": {
+      "L0_vs_L1": {
+        "mean_difference": 0.0,
+        "p_value": 1.0,
+        "discordant_pairs": 0,
+        "incorrect_to_correct": [],
+        "correct_to_incorrect": []
+      },
+      "L0_vs_L2": {
+        "mean_difference": 0.0,
+        "p_value": 1.0,
+        "discordant_pairs": 0,
+        "incorrect_to_correct": [],
+        "correct_to_incorrect": []
+      },
+      "L0_vs_L3": {
+        "mean_difference": -0.0625,
+        "p_value": 0.5832744093768991,
+        "discordant_pairs": 2,
+        "incorrect_to_correct": [],
+        "correct_to_incorrect": [
+          "integrated_age10_v1",
+          "visual_spatial_age13_v1"
+        ]
+      },
+      "L0_vs_L4": {
+        "mean_difference": -0.03125,
+        "p_value": 0.7804467750407433,
+        "discordant_pairs": 1,
+        "incorrect_to_correct": [],
+        "correct_to_incorrect": [
+          "integrated_age10_v1"
+        ]
+      },
+      "L3_vs_L4": {
+        "mean_difference": 0.03125,
+        "p_value": 0.7875887980584435,
+        "discordant_pairs": 1,
+        "incorrect_to_correct": [
+          "visual_spatial_age13_v1"
+        ],
+        "correct_to_incorrect": []
+      }
+    },
+    "multiple_comparison": {
+      "method": "bonferroni",
+      "family": "L0 vs L1/L2/L3/L4",
+      "raw_p_values": {
+        "L1": 1.0,
+        "L2": 1.0,
+        "L3": 0.5832744093768991,
+        "L4": 0.7804467750407433
+      },
+      "adjusted_p_values": {
+        "L1": 1.0,
+        "L2": 1.0,
+        "L3": 1.0,
+        "L4": 1.0
+      },
+      "rejected_at_0.05": {
+        "L1": false,
+        "L2": false,
+        "L3": false,
+        "L4": false
+      }
+    }
+  },
+  "reference_paper_result": null,
+  "reference_note": "The reference paper (arXiv:2605.17894) did not evaluate any GLM model.",
+  "l0_accuracy_by_age_across_models": [
+    {
+      "age": 7,
+      "our_l0_glm_5_3_flash": 0.75,
+      "our_l0_qwen/qwen3.5-27b": 0.625,
+      "our_l0_google/gemma-4-26b-a4b-it": 0.625,
+      "our_l0_deepseek/deepseek-v3.2": 0.625,
+      "note": "all four are OUR results on the same benchmark and scoring; the paper has no GLM result"
+    },
+    {
+      "age": 10,
+      "our_l0_glm_5_3_flash": 0.75,
+      "our_l0_qwen/qwen3.5-27b": 0.5,
+      "our_l0_google/gemma-4-26b-a4b-it": 0.5,
+      "our_l0_deepseek/deepseek-v3.2": 0.5,
+      "note": "all four are OUR results on the same benchmark and scoring; the paper has no GLM result"
+    },
+    {
+      "age": 13,
+      "our_l0_glm_5_3_flash": 0.75,
+      "our_l0_qwen/qwen3.5-27b": 0.5,
+      "our_l0_google/gemma-4-26b-a4b-it": 0.625,
+      "our_l0_deepseek/deepseek-v3.2": 0.625,
+      "note": "all four are OUR results on the same benchmark and scoring; the paper has no GLM result"
+    },
+    {
+      "age": 16,
+      "our_l0_glm_5_3_flash": 0.75,
+      "our_l0_qwen/qwen3.5-27b": 0.625,
+      "our_l0_google/gemma-4-26b-a4b-it": 0.625,
+      "our_l0_deepseek/deepseek-v3.2": 0.625,
+      "note": "all four are OUR results on the same benchmark and scoring; the paper has no GLM result"
+    }
+  ],
+  "reasoning": {
+    "setting": {
+      "effort": "minimal"
+    },
+    "note": "GLM 5.3 Flash rejects reasoning {enabled: false}; this run used the lowest setting. The Qwen, Gemma and DeepSeek runs used reasoning disabled.",
+    "by_condition": {
+      "L0": {
+        "calls": 152,
+        "reasoning_tokens_total": 15996,
+        "reasoning_tokens_mean_per_call": 105.23684210526316,
+        "reasoning_tokens_max": 256,
+        "calls_with_reasoning": 136,
+        "calls_hitting_output_limit": 40,
+        "reasoning_share_of_output_tokens": 0.9021996615905246,
+        "finish_reasons": {
+          "stop": 152
+        }
+      },
+      "L1": {
+        "calls": 152,
+        "reasoning_tokens_total": 16414,
+        "reasoning_tokens_mean_per_call": 107.98684210526316,
+        "reasoning_tokens_max": 256,
+        "calls_with_reasoning": 134,
+        "calls_hitting_output_limit": 42,
+        "reasoning_share_of_output_tokens": 0.9056,
+        "finish_reasons": {
+          "stop": 152
+        }
+      },
+      "L2": {
+        "calls": 152,
+        "reasoning_tokens_total": 16616,
+        "reasoning_tokens_mean_per_call": 109.3157894736842,
+        "reasoning_tokens_max": 256,
+        "calls_with_reasoning": 136,
+        "calls_hitting_output_limit": 41,
+        "reasoning_share_of_output_tokens": 0.9060472217678173,
+        "finish_reasons": {
+          "stop": 152
+        }
+      },
+      "L3": {
+        "calls": 143,
+        "reasoning_tokens_total": 15228,
+        "reasoning_tokens_mean_per_call": 106.4895104895105,
+        "reasoning_tokens_max": 256,
+        "calls_with_reasoning": 129,
+        "calls_hitting_output_limit": 40,
+        "reasoning_share_of_output_tokens": 0.904759075515418,
+        "finish_reasons": {
+          "stop": 143
+        }
+      },
+      "L4": {
+        "calls": 67,
+        "reasoning_tokens_total": 7226,
+        "reasoning_tokens_mean_per_call": 107.85074626865672,
+        "reasoning_tokens_max": 256,
+        "calls_with_reasoning": 61,
+        "calls_hitting_output_limit": 19,
+        "reasoning_share_of_output_tokens": 0.908702213279678,
+        "finish_reasons": {
+          "stop": 67
+        }
+      }
+    }
+  },
+  "cost_summary_usd": {
+    "glm_benchmark_spend": 0.10832485000000003,
+    "glm_benchmark_spend_note": "includes the 2-task L0 smoke test (data/glm_benchmark/smoke/), charged to the L0 ledger",
+    "benchmark_hard_cap": 8.0,
+    "project_lifetime_cumulative_spend": 0.43698038650000137,
+    "project_lifetime_api_calls": 3027,
+    "final_benchmark_inference_calls": 666
+  },
+  "test_suite": {
+    "passed": 297,
+    "total": 297
+  },
+  "provenance": {
+    "config": "configs/glm_independent_benchmark.yaml",
+    "raw_data": [
+      "data/glm_benchmark/raw/L0.jsonl",
+      "data/glm_benchmark/raw/L1.jsonl",
+      "data/glm_benchmark/raw/L2.jsonl",
+      "data/glm_benchmark/raw/L3.jsonl",
+      "data/glm_benchmark/raw/L4.jsonl"
+    ],
+    "processed_data_dir": "data/glm_benchmark/processed/",
+    "reproducibility_manifest": "reproducibility_manifest.json"
+  }
+}
